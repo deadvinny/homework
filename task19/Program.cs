@@ -26,8 +26,7 @@ void CheckingNumber(int number)
 int GetInfo(string message)
 {
      Console.Write(message);
-     int numQuarter = Convert.ToInt32(Console.ReadLine());
-     return numQuarter;
+     return Convert.ToInt32(Console.ReadLine());
 }
 
 int number = GetInfo("Введите число: ");
