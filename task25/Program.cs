@@ -8,7 +8,7 @@ int Exp(int num1, int num2)
     int pow = 1;
     for (int i = 1; i <= num2; i++)
     {
-        pow *= num1;
+        pow = pow * num1;
     }
     return pow;
 }
